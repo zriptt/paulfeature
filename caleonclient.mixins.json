@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.caleon.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["MinecraftClientAccessor", "CameraMixin", "EntityMixin", "KeyboardInputMixin", "BlockMixin", "PlayerRendererMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

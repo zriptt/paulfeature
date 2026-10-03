@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "caleonclient",
+  "version": "${version}",
+  "name": "Caleon Client",
+  "description": "Caleon Client - basefinding, ESP, tracers, freecam",
+  "authors": ["Caleon"],
+  "environment": "client",
+  "entrypoints": { "client": ["com.caleon.client.CaleonClient"] },
+  "mixins": ["caleonclient.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
